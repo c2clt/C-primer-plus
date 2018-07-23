@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(void)
+{
+    printf("Jessica Chou\n");
+    printf("Jessica\nChou\n");
+    printf("Jessica ");
+    printf("Chou\n");
+
+    return 0;
+}
