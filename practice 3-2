@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main(void)
+{
+    int ch = 0;
+    printf("Please input the value of ASCII: ");
+    scanf("%d", &ch);
+
+    getchar();
+
+    printf("The value of ASCII is %d.\n", ch);
+    printf("The character is %c.\n", (char)ch);
+
+    return 0;
+}
